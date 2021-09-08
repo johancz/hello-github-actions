@@ -4,7 +4,5 @@ ADD entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
 ENTRYPOINT ["/entrypoint.sh"]
 
-branding:
-  icon: 'award'  
-  color: 'green'
-
+LABEL com.github.actions.icon="award"
+LABEL com.github.actions.color="orange"
